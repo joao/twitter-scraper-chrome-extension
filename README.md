@@ -1,7 +1,13 @@
 # Twitter Scraper Chrome Extension
 
 Scrapes tweets from a user and display on a dashboard.
-Can also export CSV.
+Can also export CSV.  
+  
+Original repository: https://github.com/akiyamasho/twitter-scraper-chrome-extension  
+
+### Changes in fork
+- fixed linkDom to 3rd link in each tweet, to get tweet ID from date link
+- found option to filter or not replies. It's left on by default
 
 ### Requirements
 

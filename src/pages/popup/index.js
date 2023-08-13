@@ -2044,6 +2044,7 @@ const nl = "/assets/svg/imgExtension-logo.chunk.svg",
                 }
             },
             Oa = async () => {
+                // -filter%3Areplies%20 - to remove/add the filter to exclude replies
                 const l = `${Kt}search?q=(from%3A${a})%20-filter%3Areplies%20until%3A${Oe().format(
                     "yyyy-MM-DD"
                 )}%20since%3A${o}-${("0000" + v).slice(

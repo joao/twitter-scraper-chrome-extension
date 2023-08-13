@@ -31,7 +31,8 @@ if (!window.retrievePostData) {
             var imagesDom = element.querySelectorAll(
                 "[data-testid=tweetPhoto] img"
             );
-            var linkDom = element.querySelector("a[aria-label*=日]");
+            //var linkDom = element.querySelector("a[aria-label*=日]");
+            var linkDom = element.querySelectorAll("a[role=link]")[3];
             var reachDom = element.querySelector("a[href$=analytics]");
             var videosDom = element.querySelectorAll(
                 "[data-testid=tweetPhoto] video"
