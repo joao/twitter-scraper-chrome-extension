@@ -8,6 +8,7 @@ Original repository: https://github.com/akiyamasho/twitter-scraper-chrome-extens
 ### Changes in fork
 - fixed linkDom to 3rd link in each tweet, to get tweet ID from date link
 - found option to filter or not replies. It's left on by default
+- in textsDom I replace " with ', so as to export better to CSV
 
 ### Requirements
 

@@ -46,9 +46,11 @@ if (!window.retrievePostData) {
                 for (var textDom of textsDom) {
                     if (textDom.tagName.toLowerCase() === "span") {
                         content = `${content}${textDom.innerText}`;
+                        content = content.replace(/"/g, "'")
                     }
                     if (textDom.tagName.toLowerCase() === "img") {
                         content = `${content}${textDom.getAttribute("alt")}`;
+                        content = content.replace(/"/g, "'")
                     }
                 }
             }
